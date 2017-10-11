@@ -12,12 +12,10 @@ public class SpringDataUsers implements Users {
     public SpringDataUsers(UsersRepository repository) {
         this.repository = repository;
     }
-
     @Override
     public Long create(User user) {
         return repository.save(user).getId();
     }
-
     @Override
     public User retrieve(Long id) {
         return repository.findOne(id);

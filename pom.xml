@@ -15,7 +15,7 @@
     <url>https://github.com/karlbennett/${project.artifactId}/</url>
 
     <properties>
-        <cxf.version>3.0.4</cxf.version>
+        <cxf.version>3.1.12</cxf.version>
     </properties>
 
     <build>
